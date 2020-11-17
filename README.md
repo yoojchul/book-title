@@ -6,9 +6,8 @@ This program recognizes all characters of titles, authors and publisher on books
 
 But there is no distinction between results of Google OCR. We see outputs of an OCR program like this. 
 
-A Thousand Plateaus: 
-
-Capitalism and Schizophrenia\
+A Thousand Plateaus: \
+Capitalism and Schizophrenia \
 DELEUZE GUATTARI \
 Anthlone Press \
 Head First Python \
@@ -17,7 +16,7 @@ O’REILLY
 
 Based on lines between books, this program groups titles, authors and publisher of the same book. 
 
-A Thousand Plateaus: /Capitalism and Schizophrenia / DELEUZE GUATTARI / Anthlone Press
+A Thousand Plateaus: /Capitalism and Schizophrenia / DELEUZE GUATTARI / Anthlone Press \
 Head First Python / O’REILLY / Paul Barry
 
 Firstly, the program finds out the lines between books using Hough Line Transform(opencv). Then, it selects lines which don’t touch any titles, authors and publishers. Because Hough Line Transform supplied by opencv is not perfect, there are many spurious lines across letters. 
