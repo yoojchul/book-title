@@ -21,3 +21,4 @@ Head First Python / O’REILLY / Paul Barry
 
 Firstly, the program finds out the lines between books using Hough Line Transform(opencv). Then, it selects lines which don’t touch any titles, authors and publishers. Because Hough Line Transform supplied by opencv is not perfect, there are many spurious lines across letters. 
 
+
