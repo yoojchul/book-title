@@ -8,11 +8,11 @@ But there is no distinction between results of Google OCR. We see outputs of an 
 
 A Thousand Plateaus: 
 
-Capitalism and Schizophrenia
-DELEUZE GUATTARI 
-Anthlone Press
-Head First Python
-Paul Barry
+Capitalism and Schizophrenia\
+DELEUZE GUATTARI \
+Anthlone Press \
+Head First Python \
+Paul Barry \
 O’REILLY
 
 Based on lines between books, this program groups titles, authors and publisher of the same book. 
